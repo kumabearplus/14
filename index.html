@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>简历</title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    ul,li {
+      list-style: none;
+    }
+  	#header:after,#main:after,#footer:after {
+  	  content: "";
+  	  display: block;
+  	  clear: both;
+  	}
+  	#header,#main,#footer {
+  	  width: 800px;
+  	  margin: 0 auto;
+  	  position: relative;
+  	}
+  	#header li {
+  	  display: inline-block;
+  	  float: left;
+  	  margin-top: 30px;
+  	  width: 100px;
+      height: 100px;
+  	  margin-left: 30px;
+  	}
+  	#header .li-center {
+  	  width: 200px;
+  	}
+  	#header li:last-of-type {
+  	  display: inline-block;
+  	  float: right;
+  	  width: 300px;
+      height: 250px;
+  	}
+  	#header li>img {
+  	  border-radius: 50%;
+  	  background-color: #ccc;	  
+  	  width: 100px;
+  	  height: 100px;
+  	}
+  	#header li>span {
+  	  font-size: 30px;
+  	  font-weight: bold;
+  	}
+  	#header .li-center:before {
+  	  content: "";
+  	  height: 100%;
+  	  display: inline-block;
+  	  vertical-align: middle;
+  	}
+  	@font-face {
+      font-family: 'iconfont';  /* project id 291209 */
+      src: url('//at.alicdn.com/t/font_7zsl6rd8xrjxlxr.eot');
+      src: url('//at.alicdn.com/t/font_7zsl6rd8xrjxlxr.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_7zsl6rd8xrjxlxr.woff') format('woff'),
+      url('//at.alicdn.com/t/font_7zsl6rd8xrjxlxr.ttf') format('truetype'),
+ 	  url('//at.alicdn.com/t/font_7zsl6rd8xrjxlxr.svg#iconfont') format('svg');
+    }
+    .iconfont {
+      font-family:"iconfont" !important;
+      font-size:20px;
+      font-style:normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #000;
+    }
+    #header h2 {
+      border-bottom: 2px solid #ccc;
+    }
+    #header p {
+      margin-top: 10px;
+    }
+    #main h2,#footer h2 {
+      border-bottom: 1px solid #ccc;
+      width: 300px;
+      padding: 10px 0;
+      margin-top: 30px;
+    }
+    #main .ct .date {
+      font-size: 16px;
+      color: green;
+    }
+    #main h3 {
+      margin: 20px 0;
+    }
+    #main ul {
+      padding-left: 40px;
+      border-left: 1px solid #ccc;
+      margin-top: 20px;
+    }
+    #main li {
+      position: relative;
+    }
+    #main .dot:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      left: -45px;
+      border-radius: 50%;
+      background-color: #000;
+    }
+    .activity {
+      float: left;
+      width: 320px;
+    }
+    .skill {
+      float: right;
+      width: 320px;
+    }
+    #footer h2 {
+      padding: 10px 0;
+      margin-top: 30px;
+      border-bottom: 1px solid #ccc;
+      width: 300px;
+    }
+    #footer h3 {
+      margin: 20px 0;
+      display: inline-block;
+      margin-left: -40px;
+    }
+    #footer li {
+      display: block;
+      padding-left: 40px;
+    }
+    #footer li:before {
+      content: "\e6fc";
+      position: relative;
+      left: -40px;
+      font-size: 30px;
+      color: #000;
+      font-family:"iconfont" !important;
+    }
+    .skill li {
+      float: left;
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+  	<ul>
+  	  <li><img src="http://upload.mnw.cn/2017/0323/1490263058932.gif"></li>
+  	  <li class="li-center"><span>KumaBear</span></li>
+  	  <li>
+  	  	<h2>联系方式</h2>
+  	  	<p><span class="iconfont">&#xe617;</span> 24</p>
+  	  	<p><span class="iconfont">&#xe6aa;</span> 广州</p>
+  	  	<p><span class="iconfont">&#xe625;</span> 2123</p>
+  	  	<p><span class="iconfont">&#xe624;</span> 22233@qq.com</p>
+  	  	<p><span class="iconfont">&#xe6ed;</span> https://github.com/kumabearplus</p>
+  	  </li>
+  	</ul>
+  </div>
+  <div id="main">
+  	<div class="ct exp">
+  	  <h2>工作经验</h2>
+  	  <ul>
+  	  	<li>
+  	  	  <h3 class="dot">
+  	  	    <span>广州统一/</span>
+  	  	    <span class="date">2016.8-2017.4</span>
+  	  	  </h3>
+  	  	  <p>都快放假偶滴个靠近菜农斯柯达搜客都快放假偶滴个靠近菜农斯柯达搜客都快放假偶滴个靠近菜农斯柯达搜客都快放假偶滴个靠近菜农斯柯达搜客都快放假偶滴个靠近菜农斯柯达搜客</p>
+  	  	</li>
+  	  	<li>
+  	  	  <h3 class="dot">
+  	  	    <span>饥人谷/</span>
+  	  	    <span class="date">2017.4-至今</span>
+  	  	  </h3>
+  	  	  <p>学习前端的基础知识，并进行项目实战学习前端的基础知识，并进行项目实战学习前端的基础知识，并进行项目实战学习前端的基础知识，并进行项目实战学习前端的基础知识，并进行项目实战</p>
+  	  	</li>
+  	  </ul>
+  	</div>
+  	<div class="ct edu">
+  	  <h2>教育经验</h2>
+  	  <ul>
+  	  	<li>
+  	  	  <h3 class="dot">
+  	  	    <span>武汉纺织大学/</span>
+  	  	    <span class="date">2012.9-2016.6</span>
+  	  	  </h3>
+  	  	  <p>都快放假偶滴个靠近菜农斯柯达搜客都快放假偶滴个靠近菜农斯柯达搜客都快放假偶滴个靠近菜农斯柯达搜客都快放假偶滴个靠近菜农斯柯达搜客都快放假偶滴个靠近菜农斯柯达搜客</p>
+  	  	</li>
+  	  	<li>
+  	  	  <h3 class="dot">
+  	  	    <span>饥人谷/</span>
+  	  	    <span class="date">2017.4-至今</span>
+  	  	  </h3>
+  	  	  <p>学习前端的基础知识，并进行项目实战学习前端的基础知识，并进行项目实战学习前端的基础知识，并进行项目实战学习前端的基础知识，并进行项目实战学习前端的基础知识，并进行项目实战</p>
+  	  	</li>
+  	  </ul>
+  	</div>
+  </div>
+  <div id="footer">
+  	<div class="activity">
+  	  <h2>业余活动</h2>
+  	  <ul>
+  	  	<li>
+  	  	  <h3>气排球比赛</h3>
+  	  	  <p>参加统一内部气排球比赛，获得团体冠军，参加统一内部气排球比赛，获得团体冠军参加统一内部气排球比赛，获得团体冠军</p>
+  	  	</li>
+  	  	<li>
+  	  	  <h3>气排球比赛</h3>
+  	  	  <p>参加统一内部气排球比赛，获得团体冠军，参加统一内部气排球比赛，获得团体冠军参加统一内部气排球比赛，获得团体冠军</p>
+  	  	</li>
+  	  </ul>
+  	</div>
+  	<div class="skill">
+  	  <h2>个人技能</h2>
+  	  <ul>
+  	  	<li>photoshop</li>
+  	  	<li>dreamwave</li>
+  	  	<li>u3d</li>
+  	  	<li>html</li>
+  	  	<li>css</li>
+  	  </ul>
+  	</div>
+  </div>
+</body>
+</html>
